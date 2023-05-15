@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 
 
 .hero {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: rgba(4, 54, 73, 0.404);
-  }
-  
-  .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-  }
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #0a0a0a79;
+}
 
+.hero:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/hero-bg-min.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 
   .animate-charcter
 {
@@ -27,9 +28,9 @@
   background-image: linear-gradient(
     -225deg,
     #ffffff 0%,
-    #8ec7d8 29%,
+    #aec5ad 29%,
     #ffffff 67%,
-    #f7f7f7 100%
+    #c0d3c4 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -53,11 +54,10 @@
 
 
 .hero .hero-container {
-    top: 30%;
     position: absolute;
-    align-items: center;
+    width: 100vw;
     text-align: center;
-    margin: 1rem;
+    top: 30%;
 }
 
 .hero-logo {
@@ -65,9 +65,10 @@
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+
+    font-size: 6rem;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .hero h2 {
@@ -86,16 +87,43 @@
 
 
 
+
+
+
+
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1300px) {
+
+  .hero .hero-container .content{
+    left: 0%;
+    text-align: center;
+    width: 100%;
+}
 
     .hero h2 {
         font-size: 18px;
     }
 
     .hero h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .hero h2 {
+      font-size: 1.5rem;
+  }
+
+  .hero h1 {
+  font-size: 3rem;
+  }
 
 }

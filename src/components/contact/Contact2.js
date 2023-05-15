@@ -27,10 +27,11 @@ const ContactForm = () => {
     return (
         <>
 
+<div className="contactform2">
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Mental Health Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
 
@@ -43,14 +44,14 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">4441 Auburn Blvd. Suite P,</div>
-          <div class="text-two">Sacramento CA 95841</div>
+          <div class="text-one">23412 Moulton Parkway, Suite 200, </div>
+          <div class="text-two">Laguna Hills, CA 92653</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234195997"> +1 (323) 419-5997</a></div>
+          <div class="text-one"><a href="tel:3234029655"> +1 (323) 402-9655</a></div>
         </div>
 
         <div class="email details">
@@ -82,7 +83,7 @@ const ContactForm = () => {
     </div>
     </div>
   </div>
-
+  </div>
         </>
     )
 }

@@ -28,6 +28,7 @@ const ContactForm = () => {
 
     return (
         <>
+<div className="contactform">
 
 <section className="container">
 <div>
@@ -60,7 +61,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3234195997"> +1 (123) 419-5997</a></p>
+            <p><AiOutlinePhone /><a href="tel:3234029655"> +1 (323) 402-9655</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -70,7 +71,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill />4441 Auburn Blvd. Suite P, Sacramento CA 95841</p>
+            <p><BsFillPinMapFill /> 23412 Moulton Parkway, Suite 200, Laguna Hills, CA 92653</p>
     </div>
 
 </div>
@@ -84,7 +85,7 @@ const ContactForm = () => {
 
 
 
-
+</div>
         </>
     )
 }
